@@ -2,9 +2,15 @@
 <html lang="pt-br">
     <body>
         <form action="#">
-            <input type="text">
+            <input type="text"    id="taskname">
             <input type="submit"  value="login">
         </form>
+        
+        <script>
+            document.querySelector("form").addEventListener("submit", () =>{
+                const taskname=document.querySelector("#taskname").nodeValue  
+                })
+         </script>
         
         <div style="height: 50px; overflow: hidden;">
             <img src="https://raw.githubusercontent.com/JPN20/A.O.1-UC9-SA2/main/imagens/BANNER.png" height: "200px"; width="200px" />
