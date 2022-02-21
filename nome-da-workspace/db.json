@@ -1,20 +1,24 @@
 {
   "usuario": [
     {
+      "id": 1
       "name": "Pedro",
       "senha": "111"
     },
     {
       "name": "Mateus",
       "senha": "222"
+            "id": 2
     },
     {
       "name": "Tobias",
       "senha": "333",
+            "id": 3
     },
     {
       "name": "Jessica",
       "senha": "444",
+            "id": 4
     }
   ]
 }
